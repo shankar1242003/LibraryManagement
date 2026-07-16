@@ -4,7 +4,8 @@ const config = {
   user: "sa",
   password: "Pass@123",
   //server: "localhost",
-  server: "host.docker.internal",
+  //server: "host.docker.internal",
+  server: "sqlserver",
 
   database: "LibraryManagement",
   port: 1433,
