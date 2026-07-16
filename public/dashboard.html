@@ -169,35 +169,35 @@
 
       function loadDashboard() {
         $.get(
-          "http://localhost:3000/api/dashboard/total-books",
+          "http://13.233.128.66:3000/api/dashboard/total-books",
           function (res) {
             $("#totalBooks").text(res.data.total_books);
           },
         );
 
         $.get(
-          "http://localhost:3000/api/dashboard/total-students",
+          "http://13.233.128.66:3000/api/dashboard/total-students",
           function (res) {
             $("#totalStudents").text(res.data.total_students);
           },
         );
 
         $.get(
-          "http://localhost:3000/api/dashboard/issued-books",
+          "http://13.233.128.66:3000/api/dashboard/issued-books",
           function (res) {
             $("#issuedBooks").text(res.data.issued_books);
           },
         );
 
         $.get(
-          "http://localhost:3000/api/dashboard/returned-books",
+          "http://13.233.128.66:3000/api/dashboard/returned-books",
           function (res) {
             $("#returnedBooks").text(res.data.returned_books);
           },
         );
 
         $.get(
-          "http://localhost:3000/api/dashboard/available-books",
+          "http://13.233.128.66:3000/api/dashboard/available-books",
           function (res) {
             $("#availableBooks").text(res.data.available_books);
           },
